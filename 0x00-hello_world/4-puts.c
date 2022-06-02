@@ -1,10 +1,11 @@
 #include<stdio.h>
 
-int main() {
+int main() 
+{
 
 
-		puts("\"Programing is like building a multilingual puzzle");
+		puts("\"Programming is like building a multilingual puzzle");
 		getchar();
-return 0;
+    return 0;
 }
 
