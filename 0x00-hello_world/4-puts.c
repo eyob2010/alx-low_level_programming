@@ -6,6 +6,7 @@
  * Return: Always 0 (Success)
  * Description: What a language
  */
+
 int main(void) 
 {
 	puts("\"Programming is like building a multilingual puzzle");
