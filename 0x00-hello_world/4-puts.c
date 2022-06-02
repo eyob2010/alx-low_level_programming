@@ -3,9 +3,8 @@
  * puts - used to print text, an alternate to prntff
  */
 /**
- * Main -entry point
- *
- * Return: Always 0 (Success)
+ * main -entry point
+ * return: Always return 0 (Success)
  */
 int main(void) 
 {
