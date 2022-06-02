@@ -1,3 +1,6 @@
+/**
+ * puts - used to print text, an alternate to prntff
+ */
 #include<stdio.h>
 
 int main(void) 
