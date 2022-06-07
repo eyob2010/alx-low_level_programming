@@ -8,10 +8,17 @@
 int main(void)
 {
 	char c[8] = "_putchar";
-	int i;
-	for (i = 0; i < 8; i++)
+	int i, j;
+	char d;
+	while (i <8)
 	{
-		_putchar(c[i]);
+
+	for (j = i; j <= i; i++)
+	{
+		d = (c[i]);
+		_putchar(d);
+	}
+	i++
 	}
 	/*char arr[] = {'_putchar'}; */
        	_putchar('\n');
