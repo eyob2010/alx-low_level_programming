@@ -7,6 +7,7 @@
  *     */
 int main(void)
 {
-       	_putchar();
+	char arr[] = {'_putchar'};
+       	_putchar(arr);
 	    return (0);
 }
