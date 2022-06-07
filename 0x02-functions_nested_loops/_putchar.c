@@ -9,6 +9,5 @@
  *       */
 int _putchar(char c)
 {
-	int c[] = {"_putchar"};
 		return (write(1, &c, 1));
 }
