@@ -1,5 +1,5 @@
-julien@ubuntu:~/0x02$ cat 1-main.c
 #include "main.h"
+#include "_putchar.h"
 
 /**
  *  * main - check the code
@@ -8,6 +8,6 @@ julien@ubuntu:~/0x02$ cat 1-main.c
  *     */
 int main(void)
 {
-	    print_alphabet();
-	        return (0);
+	    _putchar("_putchar");
+	    return (0);
 }
