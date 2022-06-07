@@ -1,5 +1,6 @@
 #include "stdio.h"
 #include "main.h"
+#include "_putchar.h"
 /**
  *  * main - check the code
  *   *
@@ -8,6 +9,6 @@
 int main(void)
 {
 	/*char arr[] = {'_putchar'}; */
-       	_putchar(void);
+       	_putchar();
 	    return (0);
 }
