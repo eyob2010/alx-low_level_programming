@@ -13,7 +13,7 @@ int main(void)
 	while (i <8)
 	{
 
-	for (j = i; j <= i; i++)
+	for (j = i; j <= i; j++)
 	{
 		d = (c[i]);
 		_putchar(d);
