@@ -1,6 +1,5 @@
 #include "stdio.h"
 #include "main.h"
-
 /**
  *  * main - check the code
  *   *
@@ -8,7 +7,6 @@
  *     */
 int main(void)
 {
-	char a = ["_putchar"];
-       	_putchar(a);
+       	_putchar();
 	    return (0);
 }
