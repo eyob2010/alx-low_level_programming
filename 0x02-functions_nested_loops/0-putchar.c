@@ -8,6 +8,6 @@
 int main(void)
 {
 	/*char arr[] = {'_putchar'}; */
-       	_putchar(char c);
+       	_putchar(void);
 	    return (0);
 }
