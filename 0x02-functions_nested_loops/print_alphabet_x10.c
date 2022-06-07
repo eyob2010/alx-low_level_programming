@@ -1,5 +1,5 @@
-#include "unistd.h"
-void print_alphabet_x10(10)
+include "unistd"
+int print_alphabet(void)
 {
 	char i;
 	
