@@ -3,7 +3,11 @@
 /**
  * main - check the code.
  *  
- * _islower rccepts int c and eturns 1 if it is lowercase otherwise returnes 0
+ * _islower function identifies whether a character is lower or not
+ *
+ * int c accepts the characters
+ *
+ * if the character is lower it returns 1 if it is lower otherwise it return 0
 */
 int _islower(int c)
 {
