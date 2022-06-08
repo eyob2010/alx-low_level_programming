@@ -18,7 +18,7 @@ void jack_bauer(void)
 				_putchar('0');
 				_putchar(j);
 				_putchar(':');
-			}
+
 			for (k = 0; k <= 1; k++)
 			{
 				if (k == 0)
@@ -37,6 +37,7 @@ void jack_bauer(void)
 						_putchar('\n');
 					}
 				}
+			}
 			}
 		}
 		else
