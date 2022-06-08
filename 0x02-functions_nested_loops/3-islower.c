@@ -2,7 +2,7 @@
 #include "ctype.h"
 /**
  *  *  * _islower - display 1 if the character is lower otherwise 0
- *   *   * in c: Accept the character to be evaluated
+ *   *   * parameter int c: Accept the character to be evaluated
  *    *    *
  *     *     * Return: On lower case 1 other wise 0
  *       *       */
