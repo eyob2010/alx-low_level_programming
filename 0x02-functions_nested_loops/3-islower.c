@@ -5,7 +5,7 @@
  *   *   * @c : Accept the character to be evaluated
  *    *    *
  *     *     * Return: On lower case 1 other wise 0
- *       *       */
+ */
 int _islower(int c)
 {
 if (islower(c))
