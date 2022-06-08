@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- *  * main - check the code.
- *print_alphabet_x10 used to print alphabet a - x 10x
- *    * Return: Always 0.
-*/
+ *  * print_alphabet_x10 - display a - z character
+ *   * Main return 0
+ *    */
 void print_alphabet_x10(void)
 {
 	int i;
