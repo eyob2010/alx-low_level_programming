@@ -1,12 +1,15 @@
-include "main.h"
-
+#include "main.h"
 /**
- *  * main - check the code
- *   *
- *    * Return: Always 0.
- *     */
-int main(void)
+ * print_alphabet-display a - z character
+ * Main return 0
+ */
+void print_alphabet(void)
 {
-	    print_alphabet();
-	        return (0);
+	char i;
+
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		_putchar(i);
+	}
+	_putchar('\n');
 }
