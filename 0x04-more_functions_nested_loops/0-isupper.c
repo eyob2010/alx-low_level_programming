@@ -2,9 +2,10 @@
 #include "ctype.h"
 int _isupper(int c)
 {
-	int i;
+	int i, j;
 
-	i = isupper(c);
+	j = c;
+	i = isupper(j);
 
 	if (i == 0)
 		return (0);
