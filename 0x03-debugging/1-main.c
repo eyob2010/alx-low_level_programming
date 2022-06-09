@@ -1,4 +1,3 @@
-/* @i : should increment inside the while loop before getting out */
 #include <stdio.h>
 
 /**
@@ -13,7 +12,7 @@ int main(void)
 		        printf("Infinite loop incoming :(\n");
 
 			        i = 0;
-
+/*the prameter @i : should be incremented or incremental */
 				        while (i < 10)
 						        {
 								                putchar(i);
