@@ -3,6 +3,7 @@
 int _isdigit(int c)
 {
 	int i;
+
 	i = isdigit(c);
 
 	if (i == 0)
