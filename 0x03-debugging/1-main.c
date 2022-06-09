@@ -3,22 +3,21 @@
 /**
  * * main - causes an infinite loop
  * * Return: 0
- * */
+*/
 
 int main(void)
 {
-	        int i;
+	int i;
 
-		        printf("Infinite loop incoming :(\n");
-
-			        i = 0;
-/*the prameter @i : should be incremented or incremental */
-				        while (i < 10)
-						        {
-								                putchar(i);
-										        }
-
-					        printf("Infinite loop avoided! \\o/\n");
-
-						        return (0);
+	printf("Infinite loop incoming :(\n");
+	i = 0;
+/**
+ * i : doesn't increment and causes an infinite loop
+ * while (i < 10)
+	{
+		putchar(i);
+	}
+*/
+	printf("Infinite loop avoided! \\o/\n");
+	return (0);
 }
