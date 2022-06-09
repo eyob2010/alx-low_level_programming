@@ -8,7 +8,7 @@ int _isupper(int c)
 	i = isupper(j);
 
 	if (i == 0)
-		return (0);
-	else
 		return (1);
+	else
+		return (0);
 }
