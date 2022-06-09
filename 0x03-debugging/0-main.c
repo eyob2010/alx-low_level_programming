@@ -2,11 +2,14 @@
 /**
  * * main - tests function that prints if integer is positive or negative
  *
- * parameter i : is a parameter accepts integer to be evaluated
- *
  * * Return: 0
-*/
-void positive_or_negative(int i);
+ *
+ *  * positive_or_negative - is a function retunes postive
+ *  or negative depending upon the input
+ *
+ *  * 'n' - is a parameter accepts integer to be evaluated
+ */
+void positive_or_negative(int n);
 int main(void)
 {
 	int i = 0;
