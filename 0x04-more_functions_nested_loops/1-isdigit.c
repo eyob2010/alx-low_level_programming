@@ -1,5 +1,5 @@
 #include "main.h"
-#include "ctype"
+#include "ctype.h"
 int _isdigit(int c)
 {
 	int i;
