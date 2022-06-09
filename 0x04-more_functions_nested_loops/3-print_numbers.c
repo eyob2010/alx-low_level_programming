@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.h"i
 /**
  *  *  *  *  *  * print_numbers - a function that prints
  *  from 0 - 9 followed by new line
@@ -11,6 +11,6 @@ void print_numbers(void)
 	for (i = 0; i <= 9; i++)
 	{
 		_putchar(i);
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
