@@ -1,5 +1,4 @@
 #include "main.h"
-#include "_putchar.h"
 /**
  *  *  *  *  *  * print_numbers - a function that prints
  *  from 0 - 9 followed by new line
