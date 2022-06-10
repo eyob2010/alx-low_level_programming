@@ -12,23 +12,19 @@ void more_numbers(void)
 	while (j <= 1)
 	{
 	for (n = 0; n < 10; n++)
-		{
-	if (j == 0)
+	{
 		{
 	for (i = '0'; i <= '9'; i++)
 	{
 		_putchar(i);
 	}
-		}
-		else
-		{
-			for (k = '0'; k <= '4'; k++)
-			{
-				_putchar('1'), _putchar(k);
-			}
-		}
-		j++;
-	}
+	for (k = '0'; k <= '4'; k++)
+	{
+		_putchar('1'), _putchar(k);
 	}
 	_putchar('\n');
+	j++;
+	}
+	}
+	}
 }
