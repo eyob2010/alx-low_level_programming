@@ -3,7 +3,7 @@
  *  *  *  *  *  *  * more_numbers - a function that prints
  *   *  from 0 - 14 10 times followed by new line
  *    *      *      *     *     * Return: the result
- *     */
+ */
 void more_numbers(void)
 {
 	char i, k;
@@ -11,7 +11,7 @@ void more_numbers(void)
 
 	while (j <= 1)
 	{
-		for (n = 0; n < 10; n++)
+	for (n = 0; n < 10; n++)
 		{
 	if (j == 0)
 		{
