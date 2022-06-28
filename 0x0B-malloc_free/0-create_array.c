@@ -13,7 +13,7 @@ char *create_array(unsigned int size, char c)
 {
 	char *a;
 
-	if (size == 0 || !isdigit(size))
+	if (size == 0)
 	{
 		return (NULL);
 	}
