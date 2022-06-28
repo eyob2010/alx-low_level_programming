@@ -15,20 +15,13 @@ char *str_concat(char *s1, char *s2)
 	}
 	else
 	{
-		strcat(s1, s2);
+		char *s3;
+		int len;
+
+		len = (strlen(s1) + strlen(s2));
+		s3 = malloc(sizeof(char) * len);
+		strcat(s3, s1);
+		strcat(s3, s2);
+		return (s3);
 	}
-	return (s1);
-		/**
-	while (*s1)
-	{
-		s1++;
-	}
-	while (*s2)
-	{
-		*s1 = *s2;
-		s2++;
-		s1++;
-	}
-	return (s1);
-	} **/
 }
