@@ -1,5 +1,6 @@
 #include"main.h"
 #include"string.h"
+#include"stdlib"
 /**
  *  * _putchar - writes the character c to stdout
  *   * @s1: Accepts the first parameter
