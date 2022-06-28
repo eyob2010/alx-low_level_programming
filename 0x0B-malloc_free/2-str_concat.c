@@ -13,16 +13,16 @@ char *str_concat(char *s1, char *s2)
 	char *s3;
 	int len;
 
-	len = (strlen(s1) + strlen(s2));
-
 	if (s1 == NULL)
 	{
+		len = strlen(s2);
 		s3 = malloc(sizeof(char) * len);
 		strcat(s3, s2);
 		return (s3);
 	}
 	else if (s2 == NULL)
 	{
+		len = strlen(s1);
 		s3 = malloc(sizeof(char) * len);
 		strcat(s3, s1);
 		return (s3);
@@ -33,6 +33,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	else
 	{
+		len = (strlen(s1) + strlen(s2));
 		s3 = malloc(sizeof(char) * len);
 		strcat(s3, s1);
 		strcat(s3, s2);
