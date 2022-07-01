@@ -16,7 +16,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	size = (strlen(s1) + strlen(s2));
 
-	s3 = malloc(sizeof(char) *size);
+	s3 = malloc(sizeof(char) * size);
 			if (n >= strlen(s2))
 			{
 			s3 = strdup(s1);
