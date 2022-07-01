@@ -19,8 +19,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	s3 = malloc(sizeof(char) * size);
 			if (n >= strlen(s2))
 			{
-			strncat(s3, s1);
-			strncat(s3, s2);
+			strcpy(s3, s1);
+			strncat(s3, s2, strlen(s2));
 			return (s3);
 			}
 			else if (s3 == NULL)
@@ -29,7 +29,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 			}
 			else
 			{
-			strncat(s3, s1);
+			strcpy(s3, s1);
 			strncat(s3, s2, n);
 			return (s3);
 			}
