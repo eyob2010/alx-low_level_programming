@@ -8,15 +8,16 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	int *c;
+	unsigned int *c;
 
 	c = (unsigned int *) malloc(b * sizeof(unsigned int));
 
 	if (c == NULL)
 	{
-		return (98);
+		*c = 98;
+		return (c);
 	}
 	else
-	return (*c);
+	return (c);
 
 }
