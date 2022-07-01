@@ -19,8 +19,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	s3 = (char *)malloc(size(sizeof(char));
 			if (n >= strlen(s2))
 			{
-			strncat(s3, s1);
-			strncat(s3, s2);
+			s3 = strdup(s1);
+			s3 = strdup(s2);
 			return (s3);
 			}
 			else if (s3 == NULL)
@@ -29,8 +29,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 			}
 			else
 			{
-			strncat(s3, s1);
-			strncat(s3, s2, n);
+			s3 = strdup(s1);
+			s3 = strndup(s2, n);
 			return (s3);
 			}
 }
