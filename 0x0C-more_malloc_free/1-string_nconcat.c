@@ -17,20 +17,33 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	size = (strlen(s1) + strlen(s2));
 
 	s3 = malloc(sizeof(char) * size);
-			if (n >= size)
+		if ((s1 == NULL) && (s2 == NULL))
+		{
+			s1 = ('\0');
+			s2 = ('\0');
+		}
+			else if (s1 == NULL)
 			{
-			strcat(s3, s1);
-			strncat(s3, s2, strlen(s2));
-			return (s3);
+				s1 = ('\0');
 			}
-			else if (s3 == NULL)
-			{
-			return (NULL);
-			}
-			else
-			{
-			strcat(s3, s1);
-			strncat(s3, s2, n);
-			return (s3);
-			}
+		else if (s2 == NULL)
+		{
+			s2 = ('\0');
+		}
+	else if (n >= size)
+	{
+		strcat(s3, s1);
+		strncat(s3, s2, strlen(s2));
+		return (s3);
+	}
+	else if (s3 == NULL)
+	{
+		return (NULL);
+	}
+	else
+	{
+		strcat(s3, s1);
+		strncat(s3, s2, n);
+		return (s3);
+	}
 }
