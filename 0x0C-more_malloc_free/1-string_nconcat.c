@@ -12,15 +12,16 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *s3;
-	int size;
+	int size, size2;
 
 	size = (strlen(s1) + strlen(s2));
+	size2 = strlen(s2);
 
 	s3 = malloc(sizeof(char) * size);
-			if (n >= strlen(s2))
+			if (n >= size2)
 			{
 			strcpy(s3, s1);
-			strncat(s3, s2, strlen(s2));
+			strncat(s3, s2, size2);
 			return (s3);
 			}
 			else if (s3 == NULL)
