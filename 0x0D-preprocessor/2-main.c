@@ -1,5 +1,7 @@
 #include"stdio.h"
 #include"stdlib.h"
+#include"string.h"
+#include"main.h"
 /**
  *  * main - a program that prints the name of
  *  the file it was compiled from
@@ -15,7 +17,7 @@ int main(int argc, char *argv[])
 
 	for (i = 0; i < argc; i++)
 	{
-		printf("%s \n", argv[i]);
+		printf ("%s\n", argv[i]);
 	}
 	return (0);
 }
