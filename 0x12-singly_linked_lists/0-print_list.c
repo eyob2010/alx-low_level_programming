@@ -5,6 +5,8 @@
 /**
  * print_list - prints linked lists elements
  * @h: head of linked list
+ * Return: On success it prints linked list
+ * element and return unsigned int
  */
 
 size_t print_list(const list_t *h)
