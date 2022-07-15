@@ -1,6 +1,12 @@
 #ifndef MAIN_H
 #define MAIN_H
 #include "stddef.h"
+/**
+ * struct list_s - holds a structured data
+ * @str: holds a string character
+ * @len: holds a string length
+ * @next: holds the next node
+ */
 typedef struct list_s
 {
 char *str;
