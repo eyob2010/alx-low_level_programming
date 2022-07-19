@@ -22,7 +22,7 @@ size_t print_listint_safe(const listint_t *head)
 	{
 		while (temp != NULL)
 		{
-			printf("[%p] %d\n", temp->next, temp->n);
+			printf("%d\n", temp->n);
 			temp = temp->next;
 			i++;
 		}
