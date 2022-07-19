@@ -19,7 +19,6 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 	}
 	else
 	{
-		i--;
 		while (i != 0)
 		{
 			ptr = ptr->next;
