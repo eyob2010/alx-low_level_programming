@@ -1,28 +1,25 @@
 #include "lists.h"
 #include "stdlib.h"
 /**
- * pop_listint - a function that removes the head.
+ * pop_listint - a function that removes the hea.
  * @head: pointer to  apointer of a head.
  * Return: Onuccess it returns the data in the current head.
  */
 int pop_listint(listint_t **head)
 {
 	int i;
-	listint_t *temp, *ptr;
+listint_t *temp = *head;
 
-	temp = *head;
-	ptr = *head;
-	if (temp == NULL)
+	if (*head == NULL)
 	{
 		return (0);
 	}
 	else
 	{
-		temp = temp->next;
-		*head = temp;
 		i = temp->n;
+		*head = temp->next;
 		free(temp);
-		free(ptr);
+		temp = (NULL);
 		return (i);
 	}
 }
