@@ -20,7 +20,12 @@ listint_t *find_listint_loop(listint_t *head)
 		{
 			return (current);
 		}
+		else
+		{
+			return (NULL);
+		}
 	}
-	/**rev = NULL;*/
 	return (NULL);
+	/**prev = NULL;
+	return (prev);*/
 }
