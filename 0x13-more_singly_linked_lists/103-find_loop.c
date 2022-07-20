@@ -12,6 +12,12 @@ listint_t *find_listint_loop(listint_t *head)
 	listint_t *current = head;
 	listint_t *prev = head;
 
+	if (head == NULL)
+	{
+		return (head);
+	}
+	else
+	{
 	while (prev && current && current->next)
 	{
 		prev = prev->next;
@@ -20,10 +26,8 @@ listint_t *find_listint_loop(listint_t *head)
 		{
 			return (current);
 		}
-		else
-		{
-			return (NULL);
-		}
 	}
-	return (NULL);
+	prev = NULL;
+	return (prev);
+	}
 }
