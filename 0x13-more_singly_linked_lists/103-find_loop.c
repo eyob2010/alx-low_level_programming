@@ -21,6 +21,6 @@ listint_t *find_listint_loop(listint_t *head)
 			return (prev);
 		}
 	}
-	prev = NULL;
-	return (prev);
+	/**rev = NULL;*/
+	return (NULL);
 }
