@@ -18,7 +18,7 @@ listint_t *find_listint_loop(listint_t *head)
 		current = current->next->next;
 		if (prev == current)
 		{
-			return (prev);
+			return (current);
 		}
 	}
 	/**rev = NULL;*/
