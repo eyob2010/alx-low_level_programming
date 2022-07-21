@@ -30,7 +30,7 @@ unsigned int binary_to_uint(const char *b)
 		re = 0;
 		while (bi != 0 && re <= 2)
 		{
-			re = binary % 10;
+			re = bi % 10;
 			re = re * 2;
 			bi = bi / 10;
 		}
