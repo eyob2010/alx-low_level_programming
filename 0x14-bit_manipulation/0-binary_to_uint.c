@@ -49,7 +49,7 @@ int digits_only(const char *s)
 {
 	while (*s)
 	{
-		if (isdigit(*s++) == 0)
+		if (isdigit(*s++) == 0 || (isdigit(*s++) > 1 && isdigit(*s++) < 9))
 			return (0);
 	}
 	return (1);
