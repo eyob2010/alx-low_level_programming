@@ -12,7 +12,7 @@
 int digits_only(const char *s);
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int dec = 0, we = 1, rem, binary, n;
+	unsigned int dec = 0, we = 1, rem, binary, n, bi, re;
 
 	if (b == NULL)
 	{
@@ -26,6 +26,16 @@ unsigned int binary_to_uint(const char *b)
 	else if (n == 1)
 	{
 		binary = atoi(b);
+		bi = atoi(b);
+		rei = 0;
+		while (bi != 0 && re <= 2)
+		{
+			re = binary % 10;
+			re = re * 2;
+			bi = bi / 10;
+		}
+		if (re <= 2)
+		{
 		while (binary != 0)
 		{
 			rem = binary % 10;
@@ -34,6 +44,7 @@ unsigned int binary_to_uint(const char *b)
 			we = we * 2;
 		}
 		return (dec);
+		}
 	}
 	return (dec);
 }
@@ -49,7 +60,7 @@ int digits_only(const char *s)
 {
 	while (*s)
 	{
-		if (isdigit(*s++) == 0 || (isdigit(*s++) > 1 && isdigit(*s++) < 9))
+		if (isdigit(*s++) == 0)
 			return (0);
 	}
 	return (1);
