@@ -27,7 +27,7 @@ unsigned int binary_to_uint(const char *b)
 	{
 		binary = atoi(b);
 		bi = atoi(b);
-		rei = 0;
+		re = 0;
 		while (bi != 0 && re <= 2)
 		{
 			re = binary % 10;
@@ -45,6 +45,8 @@ unsigned int binary_to_uint(const char *b)
 		}
 		return (dec);
 		}
+		else
+			return (dec);
 	}
 	return (dec);
 }
